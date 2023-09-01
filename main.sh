@@ -21,7 +21,6 @@ clear
 
 cd src
 cd Gods-eye-main
-cd src
 
 clear
 
