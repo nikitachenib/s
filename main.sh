@@ -8,6 +8,8 @@ clear
 pkg upgrade
 clear
 
+#==================================INSTALLING===============================
+
 pkg install apt
 pkg install git
 pkg install pyhon
@@ -23,7 +25,15 @@ cd src
 
 clear
 
-pip install -r 
+pip install -r py-requirements.txt
+xargs sudo apt-get install deb-requirements.txt
+python3 -m build
+pip install dist/gods_eye-1.0.5-py3-none-any.whl
+
+banner
+clear
+
+#==============================INSTALLING DONE================================
 
 echo"
 
@@ -37,7 +47,7 @@ sleep 5
 
 banner
 
-
+#banner
 
 function banner() {
       echo "starting | "
@@ -68,6 +78,10 @@ function banner() {
       clear
 
 }
+
+cd
+cd s
+bash start.sh
       
 
 
