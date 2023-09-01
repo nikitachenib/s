@@ -17,6 +17,14 @@ pkg install openssh
 sleep 3
 clear
 
+cd src
+cd Gods-eye-main
+cd src
+
+clear
+
+pip install -r 
+
 echo"
 
 
@@ -24,6 +32,43 @@ echo"
 
 
       "
+
+sleep 5
+
+banner
+
+
+
+function banner() {
+      echo "starting | "
+      clear
+      echo "starting / "
+      clear
+      echo "starting - "
+      clear
+      echo "starting \ "
+      clear
+      echo "starting | "
+      clear
+      echo "starting / "
+      clear
+      echo "starting - "
+      clear
+      echo "starting \ "
+      clear
+      echo "starting | "
+      clear
+      echo "starting / "
+      clear
+      echo "starting - "
+      clear
+      echo "starting \ "
+
+      sleep 5
+      clear
+
+}
+      
 
 
 
